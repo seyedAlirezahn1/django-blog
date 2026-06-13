@@ -96,8 +96,40 @@ python manage.py runserver
 
 ```
 ---
-##🎉 Now open your browser:
+🎉 Now open your browser:
 
 Blog: http://127.0.0.1:8000
 
 Admin Panel: http://127.0.0.1:8000/admin
+
+---
+
+🔮 Roadmap
+User authentication (Register / Login)
+
+Like & share posts
+
+Advanced template with Bootstrap / Tailwind
+
+Deploy on server (PythonAnywhere / Railway)
+
+Rich text editor (TinyMCE)
+
+REST API with Django Rest Framework
+
+---
+
+👨‍💻 Developer
+<p align="center"> <img src="https://avatars.githubusercontent.com/u/your-github-id?s=100&v=4" width="100" style="border-radius: 50%;" alt="Seyed Alireza"/> <br/> <b>Seyed Alireza</b> <br/> <a href="https://github.com/seyedAlirezahn1">@seyedAlirezahn1</a> </p>
+
+---
+
+📄 License
+This project is developed for learning and showcasing skills.
+
+⭐ If you find this project interesting...
+Please give it a Star ⭐ and Follow me on GitHub for more projects! 😊🙏
+
+--
+
+"Code is like music. When you write it with passion, the world listens." 🎶💻
