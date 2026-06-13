@@ -1,0 +1,48 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/blog-syles.css' %}" />
+  </head>
+  <body>
+    <!--start bg-->
+
+    <div class="parenths_shape">
+      <div class="shape shape_1"></div>
+      <div class="shape shape_2"></div>
+      <div class="shape shape_3"></div>
+    </div>
+
+    <header>
+      <div class="p-btn">
+        <a href="/" class="btn">بازگشت به صفحه اصلی</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="bg">
+        {% for products in products_list %}
+            <section class="card">
+              <div class="image">
+                <img src="{{ products.image.url }}" alt="{{ products.image }}" class="image">
+              </div>
+              <div class="info-box">
+                <h3 class="title">{{ products.title }}</h3>
+                <p class="text">
+                    {{ products.text_blog }}
+                </p>
+                <div class="buy-box">
+                  <a href="/blog_pages/{{ products.id }}" type="button" class="buy-btn">ادامه مطلب</a>
+                </div>
+              </div>
+            </section>
+        {% endfor %}
+
+      </div>
+    </main>
+
+  </body>
+</html>
