@@ -93,3 +93,10 @@ python manage.py createsuperuser
 
 # 7. Run development server
 python manage.py runserver
+
+---
+##🎉 Now open your browser:
+
+Blog: http://127.0.0.1:8000
+
+Admin Panel: http://127.0.0.1:8000/admin
