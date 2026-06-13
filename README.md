@@ -94,6 +94,7 @@ python manage.py createsuperuser
 # 7. Run development server
 python manage.py runserver
 
+```
 ---
 ##🎉 Now open your browser:
 
